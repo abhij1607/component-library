@@ -1,0 +1,36 @@
+.alert-container {
+  box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 2px 6px rgb(0 0 0 / 10%);
+  padding: 10px;
+  max-width: 30rem;
+}
+
+.alert {
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.alert-primary {
+  color: var(--primary);
+  background-color: #cfe2ff;
+}
+.alert-secondary {
+  color: var(--secondary);
+  background-color: #d0c5c5;
+}
+.alert-success {
+  color: var(--success);
+  background-color: #d1e7dd;
+}
+.alert-danger {
+  color: var(--danger);
+  background-color: #f8d7da;
+}
+.alert-warning {
+  color: var(--warning);
+  background-color: #fff385;
+}
+.alert-info {
+  color: var(--info);
+  background-color: #cff4fc;
+}
