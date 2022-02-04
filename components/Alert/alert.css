@@ -5,10 +5,10 @@
 }
 
 .alert {
-  padding: 1rem 1rem;
+  padding: 1rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 5px;
 }
 .alert-primary {
   color: var(--primary);
