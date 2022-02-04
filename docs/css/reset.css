@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+}
+button {
+  background-color: unset;
+  border: unset;
+  color: unset;
+}
