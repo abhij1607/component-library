@@ -13,3 +13,4 @@ button {
   border: unset;
   color: unset;
 }
+img {max-width:100%;height: auto;}
