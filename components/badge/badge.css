@@ -4,19 +4,20 @@
   border-radius: 50%;
   position: absolute;
   right: 10%;
+  border: 1px solid var(--white);
 }
 .badge-online {
-  background-color: green;
+  background-color: var(--success);
 }
 .badge-offline {
-  background-color: red;
+  background-color: var(--warn);
 }
 .badge-notification {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
-  color: white;
+  background-color: var(--success);
+  color: var(--white);
 }
 .badge-box {
   position: relative;
