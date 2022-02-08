@@ -1,0 +1,27 @@
+.badge {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  border: 1px solid var(--white);
+}
+.badge-online {
+  background-color: var(--success);
+}
+.badge-offline {
+  background-color: var(--danger);
+}
+.badge-notification {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--success);
+  color: var(--white);
+}
+.badge-box {
+  position: relative;
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+}
