@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sapota UI | Cards</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/doc.css" />
+    <link rel="stylesheet" href="../components/cards/cards.css" />
+  </head>
+  <body>
+    <header class="top-nav box-shadow">
+      <nav class="navigation">
+        <div class="nav-brand">SAPOTA UI</div>
+        <ul class="list-non-bullets nav-right">
+          <li class="list-item-inline">
+            <a class="link link-active" href="/">Home</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="projects.html">Docs</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="blog.html">Github</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <aside class="aside-container box-shadow">
+        <nav class="navigation aside-nav">
+          <ul class="list-non-bullets">
+            <h3 class="nav-title">Components</h3>
+            <li class="nav-list">
+              <a class="link link-active" href="/">Avatar</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href=".html">Alert</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href=".html">Badge</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href=".html">Button</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href=".html">Card</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href=".html">Image</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href=".html">Input</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="main">
+        <h1>Cards</h1>
+        <p class="p-lg">
+          A card is a flexible and extensible content container. It includes
+          options for headers and footers, a wide variety of content, contextual
+          background colors, and powerful display options.
+        </p>
+        <div>
+          <h2>Basic card</h2>
+          <div class="demo-container flex-row">
+            <!-- basic card -->
+            <div class="card-container">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/600/400"
+                alt="card-img"
+              />
+              <div class="card-info">
+                <h3 class="card-title">Our Changing Planet</h3>
+                <p class="card-author">by kurt Wagner</p>
+              </div>
+              <div class="card-body">
+                <p class="description">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+              <div class="card-action">
+                <button class="action-btn">READ</button>
+                <button class="action-btn">BOOKMARK</button>
+                <button class="action-icon"><i class="fa fa-heart"></i></button>
+                <button class="action-icon">
+                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                </button>
+                <button class="action-icon">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
+            </code>
+          </div>
+        </div>
+
+        <div>
+          <h2>Basic card with Badge</h2>
+          <div class="demo-container flex-row">
+            <!-- basic card w/ badge-->
+            <div class="card-container">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/600/400"
+                alt="card-img"
+              />
+              <span class="badge-card">Special offer</span>
+              <div class="card-info">
+                <h3 class="card-title">Our Changing Planet</h3>
+                <p class="card-author">by kurt Wagner</p>
+              </div>
+              <div class="card-body">
+                <p class="description">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+              <div class="card-action">
+                <button class="action-btn">READ</button>
+                <button class="action-btn">BOOKMARK</button>
+                <button class="action-icon"><i class="fa fa-heart"></i></button>
+                <button class="action-icon">
+                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                </button>
+                <button class="action-icon">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
+            </code>
+          </div>
+        </div>
+
+        <div>
+          <h2>Basic Card with Dismiss</h2>
+          <div class="demo-container flex-row">
+            <!-- basic card w/ dismiss-->
+            <div class="card-container">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/600/400"
+                alt="card-img"
+              />
+              <span class="card-dismiss"><i class="fas fa-times"></i></span>
+              <div class="card-info">
+                <h3 class="card-title">Our Changing Planet</h3>
+                <p class="card-author">by kurt Wagner</p>
+              </div>
+              <div class="card-body">
+                <p class="description">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+              <div class="card-action">
+                <button class="action-btn">READ</button>
+                <button class="action-btn">BOOKMARK</button>
+                <button class="action-icon"><i class="fa fa-heart"></i></button>
+                <button class="action-icon">
+                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                </button>
+                <button class="action-icon">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
+            </code>
+          </div>
+        </div>
+
+        <div>
+          <h2>Basic card with Text over Media</h2>
+          <div class="demo-container flex-row">
+            <!--Basic W/ Text over Media-->
+            <div class="card-container">
+              <div class="img-info-container">
+                <img
+                  class="card-img-top"
+                  src="https://picsum.photos/600/400"
+                  alt="card-img"
+                />
+                <div class="card-info text-over-img">
+                  <h3 class="card-title">Our Changing Planet</h3>
+                  <p class="card-author">by kurt Wagner</p>
+                </div>
+              </div>
+              <div class="card-body body-after-img">
+                <p class="description">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+              <div class="card-action">
+                <button class="action-btn">READ</button>
+                <button class="action-btn">BOOKMARK</button>
+                <button class="action-icon"><i class="fa fa-heart"></i></button>
+                <button class="action-icon">
+                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                </button>
+                <button class="action-icon">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
+            </code>
+          </div>
+        </div>
+
+        <div>
+          <h2>Text only Card</h2>
+          <div class="demo-container flex-row">
+            <!-- text only card-->
+            <div class="card-container">
+              <div class="card-info">
+                <h3 class="card-title">Our Changing Planet</h3>
+                <p class="card-author">by kurt Wagner</p>
+              </div>
+              <div class="card-body">
+                <p class="description">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+              <div class="card-action">
+                <button class="action-btn">READ</button>
+                <button class="action-btn">BOOKMARK</button>
+                <button class="action-icon"><i class="fa fa-heart"></i></button>
+                <button class="action-icon">
+                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                </button>
+                <button class="action-icon">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
+            </code>
+          </div>
+        </div>
+
+        <div>
+          <h2>Card with Header</h2>
+          <div class="demo-container flex-row">
+            <!--Basic W/ Header-->
+            <div class="card-container with-header">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/600/400"
+                alt="card-img"
+              />
+              <div class="card-info">
+                <h3 class="card-title">Our Changing Planet</h3>
+                <p class="card-author">by kurt Wagner</p>
+              </div>
+              <div class="card-body body-after-img">
+                <p class="description">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+              <div class="card-action">
+                <button class="action-btn">READ</button>
+                <button class="action-btn">BOOKMARK</button>
+                <button class="action-icon"><i class="fa fa-heart"></i></button>
+                <button class="action-icon">
+                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                </button>
+                <button class="action-icon">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
+            </code>
+          </div>
+        </div>
+
+        <div>
+          <h2>Card with Horizontal image and Text</h2>
+          <div class="demo-container flex-row">
+            <!-- Horizontal image and Text -->
+            <div class="card-container">
+              <div class="card-part-1">
+                <img
+                  class="card-img-top"
+                  src="https://picsum.photos/600/400"
+                  alt="card-img"
+                />
+                <div class="card-info">
+                  <h3 class="card-title">Our Changing Planet</h3>
+                  <p class="card-author">by kurt Wagner</p>
+                </div>
+              </div>
+              <div class="card-action">
+                <button class="action-btn">READ</button>
+                <button class="action-btn">BOOKMARK</button>
+                <button class="action-icon"><i class="fa fa-heart"></i></button>
+                <button class="action-icon">
+                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                </button>
+                <button class="action-icon">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
+            </code>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-header" style="font-size: 24px; color: white">
+        Connect with me here
+      </div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a href="https://www.linkedin.com/in/abhij1607/"
+            ><i class="fa fa-linkedin" style="font-size: 48px; color: white"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a href="https://github.com/abhij1607"
+            ><i class="fa fa-github" style="font-size: 48px; color: white"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a href="https://twitter.com/abhijain1607"
+            ><i
+              class="fa fa-twitter-square"
+              style="font-size: 48px; color: white"
+            ></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
