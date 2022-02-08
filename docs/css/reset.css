@@ -3,14 +3,68 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html {
   font-size: 62.5%;
-  font-family: "Open Sans", sans-serif;
-  margin: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
 }
 button {
   background-color: unset;
   border: unset;
   color: unset;
 }
-img {max-width:100%;height: auto;}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+.h1 {
+  font-size: 3.2rem;
+  margin: 10px 0;
+}
+h2,
+.h1 {
+  font-size: 2.4rem;
+  margin: 10px 0;
+}
+h3,
+.h3 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+h4,
+.h4 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+h5,
+.h5 {
+  font-size: 8px;
+  margin: 10px 0;
+}
+p {
+  margin: 5px 0;
+}
+.p-lg {
+  font-size: 1.6rem;
+}
+.p-md {
+  font-size: 1.2rem;
+}
+.p-sm {
+  font-size: 8px;
+}
+
+text-wt-light {
+  font-weight: 300;
+}
+text-wt-medium {
+  font-weight: 500;
+}
+text-wt-bold {
+  font-weight: 600;
+}
