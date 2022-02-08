@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alerts | Sapota UI</title>
+    <title>Sapota UI | Alert</title>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/doc.css" />
-    <link rel="stylesheet" href="../" />
+    <link rel="stylesheet" href="../components/Alert/alert.css" />
   </head>
   <body>
-    <header class="top-nav">
+    <header class="top-nav box-shadow">
       <nav class="navigation">
         <div class="nav-brand">SAPOTA UI</div>
-        <ul class="list-non-bullets right">
+        <ul class="list-non-bullets nav-right">
           <li class="list-item-inline">
             <a class="link link-active" href="/">Home</a>
           </li>
@@ -24,11 +24,10 @@
           </li>
         </ul>
       </nav>
-      <button class="nav-right">Theme</button>
     </header>
 
     <div class="wrapper">
-      <aside class="aside-container">
+      <aside class="aside-container box-shadow">
         <nav class="navigation aside-nav">
           <ul class="list-non-bullets">
             <h3 class="nav-title">Components</h3>
@@ -57,26 +56,36 @@
         </nav>
       </aside>
       <main class="main">
-        <h1>Alerts</h1>
-        <p>Alerts are used to bring user attention to user information</p>
-        <h3>Simple Alerts</h3>
-        <div class="alert-container">
-          <div class="alert alert-primary" role="alert">
-            Simple primary alert!
+        <h1>Alert</h1>
+        <p class="p-lg">
+          Alerts are used to bring attention to a state that affects a system,
+          feature or page.
+        </p>
+        <div>
+          <h2>Simple Alerts</h2>
+          <div class="alert-container">
+            <div class="alert alert-primary" role="alert">
+              Simple primary alert!
+            </div>
+            <div class="alert alert-secondary" role="alert">
+              Simple secondary alert!
+            </div>
+            <div class="alert alert-success" role="alert">
+              Simple success alert!
+            </div>
+            <div class="alert alert-danger" role="alert">
+              Simple danger alert!
+            </div>
+            <div class="alert alert-warning" role="alert">
+              Simple warning alert!
+            </div>
+            <div class="alert alert-info" role="alert">Simple info alert!</div>
           </div>
-          <div class="alert alert-secondary" role="alert">
-            Simple secondary alert!
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/e873670eacd277ff08e4d09293e330a2.js"></script>
+            </code>
           </div>
-          <div class="alert alert-success" role="alert">
-            Simple success alert!
-          </div>
-          <div class="alert alert-danger" role="alert">
-            Simple danger alert!
-          </div>
-          <div class="alert alert-warning" role="alert">
-            Simple warning alert!
-          </div>
-          <div class="alert alert-info" role="alert">Simple info alert!</div>
         </div>
       </main>
     </div>
