@@ -32,6 +32,12 @@
   padding: 10px;
   border-radius: 5px;
 }
+.demo-container.flex-row {
+  flex-direction: row;
+}
+.demo-container.flex-column {
+  flex-direction: column;
+}
 .code-container {
   align-items: center;
   border: 1px solid var(--secondary-color);
