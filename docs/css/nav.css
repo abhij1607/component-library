@@ -50,7 +50,7 @@
   background-color: var(--dark-color);
   padding: 1rem 1rem;
   text-align: center;
-  color: white;
+  color: var(--white);
 }
 
 .footer .link {
@@ -59,4 +59,10 @@
 
 .footer ul {
   padding-inline-start: 0px;
+}
+@media (max-width: 767px) {
+  .footer {
+    position: relative;
+    top: 80px;
+  }
 }
