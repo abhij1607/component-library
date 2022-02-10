@@ -1,0 +1,56 @@
+h1,
+.h1 {
+  font-size: 3.2rem;
+  margin: 10px 0;
+}
+h2,
+.h2 {
+  font-size: 2.4rem;
+  margin: 10px 0;
+}
+h3,
+.h3 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+h4,
+.h4 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+h5,
+.h5 {
+  font-size: 8px;
+  margin: 10px 0;
+}
+p {
+  margin: 5px 0;
+}
+.p-xlg {
+  font-size: 1.8rem;
+}
+.p-lg {
+  font-size: 1.6rem;
+}
+.p-md {
+  font-size: 1.2rem;
+}
+.p-sm {
+  font-size: 8px;
+}
+.p-xsm {
+  font-size: 5px;
+}
+.txt-light {
+  font-weight: 300;
+}
+.txt-md {
+  font-weight: 500;
+}
+.txt-bold {
+  font-weight: 700;
+}
+.text-strike {
+  text-decoration: line-through;
+}
