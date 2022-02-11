@@ -59,3 +59,9 @@
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
