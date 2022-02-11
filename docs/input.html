@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sapota UI | Avatar</title>
+    <title>Sapota UI | Input</title>
     <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/doc.css" />
@@ -46,9 +46,7 @@
         <nav class="navigation aside-nav">
           <ul class="list-non-bullets">
             <li class="nav-list">
-              <a
-                class="link link-active"
-                href="/component-library/docs/avatar.html"
+              <a class="link" href="/component-library/docs/avatar.html"
                 >Avatar</a
               >
             </li>
@@ -76,7 +74,9 @@
               >
             </li>
             <li class="nav-list">
-              <a class="link" href="/component-library/docs/input.html"
+              <a
+                class="link link-active"
+                href="/component-library/docs/input.html"
                 >Input</a
               >
             </li>
@@ -97,106 +97,80 @@
         </nav>
       </aside>
       <main class="main">
-        <h1>Avatar</h1>
+        <h1>Inputs</h1>
         <p class="p-lg">
-          The Avatar component is used to represent a user, and displays the
-          profile picture, initials or fallback icon.
+          The input element is used to create interactive controls for web-based
+          forms in order to accept data from the user; a wide variety of types
+          of input data and control widgets are available, depending on the
+          device and user agent.
         </p>
         <div>
-          <h2>Round Image Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-xsm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-sm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-md"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-lg"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-          </ul>
+          <h2>Input text type</h2>
+          <div class="alert-container">
+            <input
+              type="text"
+              class="input input-primary"
+              placeholder="Primary"
+            />
+            <input
+              type="text"
+              class="input input-secondary"
+              placeholder="Secondary"
+            />
+            <input
+              type="text"
+              class="input input-success"
+              placeholder="Success"
+            />
+            <input type="text" class="input input-info" placeholder="info" />
+            <input
+              type="text"
+              class="input input-danger"
+              placeholder="Danger"
+            />
+          </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/6d137eff1dfc4896a9c8b91a99395207.js"></script>
+              <script src="https://gist.github.com/abhij1607/9ac38ec0d7d40c71e9ab237804a3fac1.js"></script>
             </code>
           </div>
         </div>
         <div>
-          <h2>Squared Image Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-xsm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-sm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-md"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-lg"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-          </ul>
+          <h2>Submit and Reset Input</h2>
+          <div class="demo-container flex-row">
+            <input type="submit" class="btn btn-success" value="Submit" />
+            <input type="reset" class="btn btn-secondary" />
+          </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/1746ab94c7d060cf1cdc77376a53040b.js"></script>
+              <script src="https://gist.github.com/abhij1607/3303bb4db8daf29edd3ff1d9a6b375a1.js"></script>
             </code>
           </div>
         </div>
         <div>
-          <h2>Round Text Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-xsm text-xsm">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-sm text-sm">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-md text-md">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-lg text-lg">Avatar</div>
-            </li>
-          </ul>
+          <h2>Quantity and search Input</h2>
+          <div class="demo-container flex-row">
+            <input
+              type="number"
+              id="quantity"
+              class="input input-secondary"
+              placeholder="1-5"
+              name="quantity"
+              min="1"
+              max="5"
+            />
+
+            <input
+              type="search"
+              class="input input-secondary"
+              id="gsearch"
+              name="gsearch"
+              placeholder="gsearch"
+            />
+          </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/9c9f823ea00b9457d044c48cb269b0d0.js"></script>
+              <script src="https://gist.github.com/abhij1607/f58e489c5ce3f6fb0b8c04e2c4395b5f.js"></script>
             </code>
           </div>
         </div>

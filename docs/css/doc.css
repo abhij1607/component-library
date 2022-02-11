@@ -1,5 +1,6 @@
 .wrapper {
   display: flex;
+  min-height: 100vh;
 }
 .aside-container {
   padding: 0 2rem;
@@ -15,6 +16,33 @@
 .nav-title {
   font-size: 1.6rem;
   padding: 1rem 3rem;
+  display: flex;
+}
+.nav-title button {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.cross .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+.cross .bar2 {
+  opacity: 0;
+}
+.cross .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 .main {
   padding: 1rem 3rem;
@@ -32,6 +60,12 @@
   padding: 10px;
   border-radius: 5px;
 }
+.demo-container.flex-row {
+  flex-direction: row;
+}
+.demo-container.flex-column {
+  flex-direction: column;
+}
 .code-container {
   align-items: center;
   border: 1px solid var(--secondary-color);
@@ -39,4 +73,85 @@
   margin: 10px 0;
   height: 20rem;
   overflow-y: scroll;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+@media (max-width: 767px) {
+  .wrapper {
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+  }
+  .nav-title {
+    padding: unset;
+  }
+  .nav-title button {
+    display: block;
+    margin-left: auto;
+  }
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .top-nav {
+    padding: 2rem 3rem;
+    position: fixed;
+    z-index: 9;
+    background-color: var(--white);
+    width: 100%;
+  }
+  .top-nav ul {
+    display: none;
+  }
+  .top-nav .navigation {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .top-nav ul {
+    display: none;
+  }
+  .top-nav ul.show {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: unset;
+  }
+  #main-menu li {
+    padding: unset;
+    display: unset;
+  }
+  .navigation .nav-brand {
+    padding: 0;
+  }
+  .menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .logo-btn-header {
+    width: 100%;
+    display: flex;
+  }
+  .aside-nav {
+    display: none;
+  }
+  .aside-nav.show {
+    display: flex;
+  }
+  .aside-container {
+    padding: 0 3rem;
+  }
 }

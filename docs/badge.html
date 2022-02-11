@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sapota UI | Avatar</title>
+    <title>Sapota UI | Badge</title>
     <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/doc.css" />
@@ -46,9 +46,7 @@
         <nav class="navigation aside-nav">
           <ul class="list-non-bullets">
             <li class="nav-list">
-              <a
-                class="link link-active"
-                href="/component-library/docs/avatar.html"
+              <a class="link" href="/component-library/docs/avatar.html"
                 >Avatar</a
               >
             </li>
@@ -58,7 +56,9 @@
               >
             </li>
             <li class="nav-list">
-              <a class="link" href="/component-library/docs/badge.html"
+              <a
+                class="link link-active"
+                href="/component-library/docs/badge.html"
                 >Badge</a
               >
             </li>
@@ -97,106 +97,59 @@
         </nav>
       </aside>
       <main class="main">
-        <h1>Avatar</h1>
+        <h1>Badge</h1>
         <p class="p-lg">
-          The Avatar component is used to represent a user, and displays the
-          profile picture, initials or fallback icon.
+          Badges are used to add additional information to any content.
         </p>
         <div>
-          <h2>Round Image Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-xsm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-sm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
+          <h2>Badge on Avatar</h2>
+          <div class="demo-container flex-row">
+            <div class="badge-box">
               <img
                 class="avatar-round avatar-md"
                 src="https://bit.ly/dan-abramov"
                 alt=""
               />
-            </li>
-            <li class="list-item-inline">
+              <span class="badge badge-online"></span>
+            </div>
+            <div class="badge-box">
               <img
-                class="avatar-round avatar-lg"
+                class="avatar-round avatar-md"
                 src="https://bit.ly/dan-abramov"
                 alt=""
               />
-            </li>
-          </ul>
+              <span class="badge badge-offline"></span>
+            </div>
+            <div class="badge-box">
+              <img
+                class="avatar-round avatar-md"
+                src="https://bit.ly/dan-abramov"
+                alt=""
+              />
+              <span class="badge badge-notification">12</span>
+            </div>
+          </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/6d137eff1dfc4896a9c8b91a99395207.js"></script>
+              <script src="https://gist.github.com/abhij1607/2fc909f3301dc90c864d7d73c0135c66.js"></script>
             </code>
           </div>
         </div>
         <div>
-          <h2>Squared Image Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-xsm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-sm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-md"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-lg"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-          </ul>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/1746ab94c7d060cf1cdc77376a53040b.js"></script>
-            </code>
+          <h2>Badge on Icon</h2>
+          <div class="demo-container flex-row">
+            <div class="badge-box">
+              <i class="fa fa-3x fa-bell"></i>
+              <span class="badge badge-notification">12</span>
+            </div>
+            <div class="badge-box">
+              <i class="fa fa-3x fa-bell"></i>
+              <span class="badge badge-notification">12</span>
+            </div>
           </div>
-        </div>
-        <div>
-          <h2>Round Text Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-xsm text-xsm">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-sm text-sm">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-md text-md">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-lg text-lg">Avatar</div>
-            </li>
-          </ul>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/9c9f823ea00b9457d044c48cb269b0d0.js"></script>
+              <script src="https://gist.github.com/abhij1607/008a4c9f401de693c22cf6ff136667fa.js"></script>
             </code>
           </div>
         </div>

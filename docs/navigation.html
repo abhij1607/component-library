@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sapota UI | Avatar</title>
+    <title>Sapota UI | Navigation</title>
     <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/doc.css" />
@@ -46,9 +46,7 @@
         <nav class="navigation aside-nav">
           <ul class="list-non-bullets">
             <li class="nav-list">
-              <a
-                class="link link-active"
-                href="/component-library/docs/avatar.html"
+              <a class="link" href="/component-library/docs/avatar.html"
                 >Avatar</a
               >
             </li>
@@ -86,7 +84,9 @@
               >
             </li>
             <li class="nav-list">
-              <a class="link" href="/component-library/docs/navigation.html"
+              <a
+                class="link link-active"
+                href="/component-library/docs/navigation.html"
                 >Navigation</a
               >
             </li>
@@ -97,106 +97,46 @@
         </nav>
       </aside>
       <main class="main">
-        <h1>Avatar</h1>
+        <h1>Navigation</h1>
         <p class="p-lg">
-          The Avatar component is used to represent a user, and displays the
-          profile picture, initials or fallback icon.
+          The nav tag defines a set of navigation links. It is generally used
+          for major blocks of navigation links.
         </p>
         <div>
-          <h2>Round Image Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-xsm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-sm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-md"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-round avatar-lg"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-          </ul>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/6d137eff1dfc4896a9c8b91a99395207.js"></script>
-            </code>
+          <h2>Navigation view for desktop size screen</h2>
+          <div class="demo-container">
+            <div class="top-nav box-shadow">
+              <nav class="navigation">
+                <div class="nav-col nv-col-1">
+                  <div class="nav-brand">BRAND</div>
+
+                  <ul class="list-non-bullets nav-right">
+                    <li class="list-item-inline">
+                      <a class="link" href="">Wishlist</a>
+                    </li>
+                    <li class="list-item-inline">
+                      <a class="link" href="">Bag</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="nav-col nv-col-2">
+                  <input
+                    type="search"
+                    class="input input-search input-primary"
+                    id="gsearch"
+                    name="gsearch"
+                  />
+                  <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-search" title="search"></i>
+                  </button>
+                </div>
+              </nav>
+            </div>
           </div>
-        </div>
-        <div>
-          <h2>Squared Image Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-xsm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-sm"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-md"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-            <li class="list-item-inline">
-              <img
-                class="avatar-square avatar-lg"
-                src="https://bit.ly/dan-abramov"
-                alt=""
-              />
-            </li>
-          </ul>
+
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/1746ab94c7d060cf1cdc77376a53040b.js"></script>
-            </code>
-          </div>
-        </div>
-        <div>
-          <h2>Round Text Avatar</h2>
-          <ul class="list-non-bullet demo-container">
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-xsm text-xsm">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-sm text-sm">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-md text-md">Avatar</div>
-            </li>
-            <li class="list-item-inline">
-              <div class="avatar-name avatar-lg text-lg">Avatar</div>
-            </li>
-          </ul>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/9c9f823ea00b9457d044c48cb269b0d0.js"></script>
+              <script src="https://gist.github.com/abhij1607/88c4d36232495797a3f12f3b42f32263.js"></script>
             </code>
           </div>
         </div>

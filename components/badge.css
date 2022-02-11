@@ -10,7 +10,7 @@
   background-color: var(--success);
 }
 .badge-offline {
-  background-color: var(--warn);
+  background-color: var(--danger);
 }
 .badge-notification {
   display: inline-flex;
@@ -21,4 +21,7 @@
 }
 .badge-box {
   position: relative;
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
 }
