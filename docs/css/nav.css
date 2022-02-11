@@ -54,7 +54,7 @@
 }
 
 .footer .link {
-  color: white;
+  color: var(--white);
 }
 
 .footer ul {
