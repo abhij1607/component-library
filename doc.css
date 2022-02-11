@@ -87,6 +87,7 @@
   padding: 10px;
   font-size: 16px;
   border-radius: 30px;
+  text-decoration: unset;
 }
 .secondary-link {
   padding: 10px;
