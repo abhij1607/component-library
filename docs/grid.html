@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sapota UI | Typography</title>
+    <title>Sapota UI | Grid</title>
     <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/doc.css" />
@@ -79,9 +79,7 @@
               >
             </li>
             <li class="nav-list">
-              <a
-                class="link link-active"
-                href="/component-library/docs/typography.html"
+              <a class="link" href="/component-library/docs/typography.html"
                 >Typography</a
               >
             </li>
@@ -91,77 +89,73 @@
               >
             </li>
             <li class="nav-list">
-              <a class="link" href="/component-library/docs/grid.html">Grid</a>
+              <a
+                class="link link-active"
+                href="/component-library/docs/grid.html"
+                >Grid</a
+              >
             </li>
           </ul>
         </nav>
       </aside>
       <main class="main">
-        <h1>Typography</h1>
+        <h1>Grid</h1>
         <p class="p-lg">
-          Typography is the art and technique of arranging type to make written
-          language legible, readable and appealing when displayed.
+          The CSS Grid Layout Module offers a grid-based layout system, with
+          rows and columns, making it easier to design web pages without having
+          to use floats and positioning.
         </p>
-
         <div>
-          <h2>Semantic Heading elements</h2>
-          <div class="demo-container flex-column">
-            <h1>Heading - 1</h1>
-            <h2>Heading - 2</h2>
-            <h3>Heading - 3</h3>
-            <h4>Heading - 4</h4>
-            <h5>Heading - 5</h5>
-            <h6>Heading - 6</h6>
+          <h2>50:50 layout</h2>
+          <div class="alert-container">
+            <div class="grid-50-50-layout gap-1">
+              <div class="box-shadow">
+                <h3>section1</h3>
+              </div>
+              <div class="box-shadow">
+                <h3>section2</h3>
+              </div>
+            </div>
           </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/44a3e13dc0179cee121f89888554b61d.js"></script>
+              <script src="https://gist.github.com/abhij1607/9ac38ec0d7d40c71e9ab237804a3fac1.js"></script>
             </code>
           </div>
         </div>
-
         <div>
-          <h2>Heading size classes</h2>
-          <div class="demo-container flex-column">
-            <div class="h1">h1 class</div>
-            <div class="h2">h2 class</div>
-            <span class="h3">h3 class</span>
-            <p class="h4">h4 class</p>
-            <h4 class="h5">h5 class</h4>
-            <p class="h6">h6 class</p>
+          <h2>70:30 layout</h2>
+          <div class="alert-container">
+            <div class="grid-70-30-layout gap-1">
+              <div class="box-shadow">
+                <h3>S1</h3>
+              </div>
+              <div class="box-shadow">
+                <h3>S2</h3>
+              </div>
+            </div>
           </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/fd89c085e612f23a7eb3661fa6eb3f9b.js"></script>
+              <script src="https://gist.github.com/abhij1607/3303bb4db8daf29edd3ff1d9a6b375a1.js"></script>
             </code>
           </div>
         </div>
-
         <div>
-          <h2>Paragraph text classes</h2>
-          <div class="demo-container flex-column">
-            <p class="p-xlg">Para Extra large</p>
-            <p class="p-lg">Para large</p>
-            <p class="p-md">Para medium</p>
-            <p class="p-sm">Para small</p>
+          <h2>80:20 layout</h2>
+          <div class="alert-container">
+            <div class="grid-80-20-layout gap-1">
+              <div class="box-shadow">
+                <h3>S1</h3>
+              </div>
+              <div class="box-shadow">
+                <h3>S2</h3>
+              </div>
+            </div>
           </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/29f21e2714ac4c389e28adeaa3bc6b8d.js"></script>
-            </code>
-          </div>
-        </div>
-
-        <div>
-          <h2>Extra text styles</h2>
-          <div class="demo-container flex-row">
-            <p class="p-md text-strike txt-bold">Text Strike through</p>
-            <p class="p-md txt-md">Para medium</p>
-            <p class="p-md txt-lt">Para light</p>
-          </div>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/a0b8b838552a86cb425fa953ee3d2990.js"></script>
+              <script src="https://gist.github.com/abhij1607/f58e489c5ce3f6fb0b8c04e2c4395b5f.js"></script>
             </code>
           </div>
         </div>

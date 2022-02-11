@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sapota UI | Typography</title>
+    <title>Sapota UI | Navigation</title>
     <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/doc.css" />
@@ -79,14 +79,14 @@
               >
             </li>
             <li class="nav-list">
-              <a
-                class="link link-active"
-                href="/component-library/docs/typography.html"
+              <a class="link" href="/component-library/docs/typography.html"
                 >Typography</a
               >
             </li>
             <li class="nav-list">
-              <a class="link" href="/component-library/docs/navigation.html"
+              <a
+                class="link link-active"
+                href="/component-library/docs/navigation.html"
                 >Navigation</a
               >
             </li>
@@ -97,71 +97,46 @@
         </nav>
       </aside>
       <main class="main">
-        <h1>Typography</h1>
+        <h1>Navigation</h1>
         <p class="p-lg">
-          Typography is the art and technique of arranging type to make written
-          language legible, readable and appealing when displayed.
+          The nav tag defines a set of navigation links. It is generally used
+          for major blocks of navigation links.
         </p>
-
         <div>
-          <h2>Semantic Heading elements</h2>
-          <div class="demo-container flex-column">
-            <h1>Heading - 1</h1>
-            <h2>Heading - 2</h2>
-            <h3>Heading - 3</h3>
-            <h4>Heading - 4</h4>
-            <h5>Heading - 5</h5>
-            <h6>Heading - 6</h6>
+          <h2>Navigation view for desktop size screen</h2>
+          <div class="demo-container">
+            <div class="top-nav box-shadow">
+              <nav class="navigation">
+                <div class="nav-col nv-col-1">
+                  <div class="nav-brand">BRAND</div>
+
+                  <ul class="list-non-bullets nav-right">
+                    <li class="list-item-inline">
+                      <a class="link" href="">Wishlist</a>
+                    </li>
+                    <li class="list-item-inline">
+                      <a class="link" href="">Bag</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="nav-col nv-col-2">
+                  <input
+                    type="search"
+                    class="input input-search input-primary"
+                    id="gsearch"
+                    name="gsearch"
+                  />
+                  <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-search" title="search"></i>
+                  </button>
+                </div>
+              </nav>
+            </div>
           </div>
+
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/44a3e13dc0179cee121f89888554b61d.js"></script>
-            </code>
-          </div>
-        </div>
-
-        <div>
-          <h2>Heading size classes</h2>
-          <div class="demo-container flex-column">
-            <div class="h1">h1 class</div>
-            <div class="h2">h2 class</div>
-            <span class="h3">h3 class</span>
-            <p class="h4">h4 class</p>
-            <h4 class="h5">h5 class</h4>
-            <p class="h6">h6 class</p>
-          </div>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/fd89c085e612f23a7eb3661fa6eb3f9b.js"></script>
-            </code>
-          </div>
-        </div>
-
-        <div>
-          <h2>Paragraph text classes</h2>
-          <div class="demo-container flex-column">
-            <p class="p-xlg">Para Extra large</p>
-            <p class="p-lg">Para large</p>
-            <p class="p-md">Para medium</p>
-            <p class="p-sm">Para small</p>
-          </div>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/29f21e2714ac4c389e28adeaa3bc6b8d.js"></script>
-            </code>
-          </div>
-        </div>
-
-        <div>
-          <h2>Extra text styles</h2>
-          <div class="demo-container flex-row">
-            <p class="p-md text-strike txt-bold">Text Strike through</p>
-            <p class="p-md txt-md">Para medium</p>
-            <p class="p-md txt-lt">Para light</p>
-          </div>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/a0b8b838552a86cb425fa953ee3d2990.js"></script>
+              <script src="https://gist.github.com/abhij1607/88c4d36232495797a3f12f3b42f32263.js"></script>
             </code>
           </div>
         </div>

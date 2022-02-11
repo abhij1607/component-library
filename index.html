@@ -3,29 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sapota UI | Typography</title>
+    <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./doc.css" />
+    <link rel="stylesheet" href="./docs/css/doc.css" />
     <link rel="stylesheet" href="./docs/css/index.css" />
-    <title>Sapota UI| Home</title>
   </head>
   <body>
-    <header class="top-nav box-shadow">
+    <header class="top-nav box-shadow main-header">
       <nav class="navigation">
-        <div class="nav-brand">SAPOTA UI</div>
-        <ul class="list-non-bullets nav-right">
+        <div class="logo-btn-header">
+          <div class="nav-brand">SAPOTA UI</div>
+          <button class="menu-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+        </div>
+        <ul id="main-menu" class="list-non-bullets nav-right">
           <li class="list-item-inline">
             <a class="link link-active" href="/">Home</a>
           </li>
           <li class="list-item-inline">
-            <a class="link" href="projects.html">Docs</a>
+            <a class="link" href="./docs/avatar.html">Docs</a>
           </li>
           <li class="list-item-inline">
-            <a class="link" href="blog.html">Github</a>
+            <a class="link" href="https://github.com/abhij1607">Github</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <div class="home-wrapper">
+    <div class="home-wrapper wrapper">
       <main class="sec-hero">
         <div class="hero-img">
           <img src="./docs/assets/component-library.png" alt="" />
@@ -40,37 +50,49 @@
             efforts and keep the design and code consistent.
           </p>
           <div class="btn-box">
-            <button class="primary-link">Get Started</button>
-            <button class="secondary-link">Installation</button>
+            <a href="./docs/avatar.html" class="primary-link">Get Started</a>
+          </div>
+        </div>
+
+        <div class="content-box">
+          <h2 class="h1">Installation</h2>
+          <p class="p-lg hero-desc">
+            Copy and paste the code in the head tag of your html document. So
+            that you can style your components by just adding class names to
+            your html elements.
+          </p>
+        </div>
+        <div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/4d705b238d87b5b97ec60481024a025d.js"></script>
+            </code>
           </div>
         </div>
       </main>
     </div>
 
     <footer class="footer">
-      <div class="footer-header" style="font-size: 24px; color: white">
-        Connect with me here
-      </div>
+      <div class="footer-header">Connect with me here</div>
       <ul class="social-links list-non-bullet">
         <li class="list-item-inline">
-          <a href="https://www.linkedin.com/in/abhij1607/"
-            ><i class="fa fa-linkedin" style="font-size: 48px; color: white"></i
+          <a class="link" href="https://www.linkedin.com/in/abhij1607/"
+            ><i class="fa fa-3x fa-linkedin"></i
           ></a>
         </li>
         <li class="list-item-inline">
-          <a href="https://github.com/abhij1607"
-            ><i class="fa fa-github" style="font-size: 48px; color: white"></i
+          <a class="link" href="https://github.com/abhij1607"
+            ><i class="fa fa-3x fa-github"></i
           ></a>
         </li>
         <li class="list-item-inline">
-          <a href="https://twitter.com/abhijain1607"
-            ><i
-              class="fa fa-twitter-square"
-              style="font-size: 48px; color: white"
-            ></i
+          <a class="link" href="https://twitter.com/abhijain1607"
+            ><i class="fa fa-3x fa-twitter-square"></i
           ></a>
         </li>
       </ul>
     </footer>
+    <!-- script -->
+    <script src="./docs/js/navbar.js"></script>
   </body>
 </html>
