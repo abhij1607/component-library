@@ -59,12 +59,12 @@ p {
   font-size: 8px;
 }
 
-text-wt-light {
+.text-wt-light {
   font-weight: 300;
 }
-text-wt-medium {
+.text-wt-medium {
   font-weight: 500;
 }
-text-wt-bold {
+.text-wt-bold {
   font-weight: 600;
 }
