@@ -5,10 +5,10 @@
   min-width: 100%;
   background-color: var(--white);
   color: var(--sec-text);
-  padding: 2rem;
+  padding: var(--size-lg);
   align-items: center;
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: var(--size-base);
+  font-weight: var(--font-wt-medium);
 }
 
 .nav-right {
@@ -26,10 +26,10 @@
 }
 
 .navigation .nav-brand {
-  font-weight: 500;
-  font-size: 2rem;
+  font-weight: var(--font-wt-medium);
+  font-size: var(--size-lg);
   color: var(--primary-color);
-  padding: 0 3rem;
+  padding: 0 var(--size-xl);
 }
 
 .navigation .link {
@@ -48,7 +48,7 @@
 /* footer */
 .footer {
   background-color: var(--dark-color);
-  padding: 1rem 1rem;
+  padding: var(--size-sm);
   text-align: center;
   color: var(--white);
 }

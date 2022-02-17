@@ -3,19 +3,19 @@
   min-height: 100vh;
 }
 .aside-container {
-  padding: 0 2rem;
+  padding: 0 var(--size-lg);
 }
 .aside-nav .link {
-  font-size: 1.2rem;
+  font-size: var(--size-sm);
 }
 .aside-nav .nav-list {
-  font-size: 1.2rem;
-  margin: 10px 3rem;
+  font-size: var(--size-sm);
+  margin: var(--size-sm) var(--size-xl);
   display: block;
 }
 .nav-title {
-  font-size: 1.6rem;
-  padding: 1rem 3rem;
+  font-size: var(--size-base);
+  padding: var(--size-sm) var(--size-xl);
   display: flex;
 }
 .nav-title button {
@@ -57,8 +57,8 @@
   flex-flow: row wrap;
   justify-content: space-around;
   flex-direction: row-reverse;
-  padding: 10px;
-  border-radius: 5px;
+  padding: var(--size-sm);
+  border-radius: var(--size-2xs);
 }
 .demo-container.flex-row {
   flex-direction: row;
@@ -69,8 +69,8 @@
 .code-container {
   align-items: center;
   border: 1px solid var(--secondary-color);
-  border-radius: 5px;
-  margin: 10px 0;
+  border-radius: var(--size-2xs);
+  margin: var(--size-sm) 0;
   height: 20rem;
   overflow-y: scroll;
 }
@@ -106,7 +106,7 @@
     margin: 0 auto;
   }
   .top-nav {
-    padding: 2rem 3rem;
+    padding: var(--size-lg) var(--size-xl);
     position: fixed;
     z-index: 9;
     background-color: var(--white);
@@ -152,6 +152,6 @@
     display: flex;
   }
   .aside-container {
-    padding: 0 3rem;
+    padding: 0 var(--size-xl);
   }
 }

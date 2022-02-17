@@ -1,14 +1,14 @@
 .alert-container {
   box-shadow: 0 0 1px rgb(0 0 0 / 10%), 0 2px 6px rgb(0 0 0 / 10%);
-  padding: 10px;
+  padding: var(--size-sm);
   max-width: 30rem;
 }
 
 .alert {
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: var(--size-sm);
+  margin-bottom: var(--size-sm);
   border: 1px solid transparent;
-  border-radius: 5px;
+  border-radius: var(--size-2xs);
 }
 .alert-primary {
   color: var(--primary);
