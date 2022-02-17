@@ -22,49 +22,49 @@ img {
 
 h1,
 .h1 {
-  font-size: 3.2rem;
-  margin: 10px 0;
+  font-size: var(--size-xl);
+  margin: var(--size-sm) 0;
 }
 h2,
 .h1 {
-  font-size: 2.4rem;
-  margin: 10px 0;
+  font-size: var(--size-lg);
+  margin: var(--size-sm) 0;
 }
 h3,
 .h3 {
-  font-size: 1.6rem;
-  margin: 10px 0;
+  font-size: var(--size-base);
+  margin: var(--size-sm) 0;
 }
 h4,
 .h4 {
-  font-size: 1.2rem;
-  margin: 10px 0;
+  font-size: var(--size-sm);
+  margin: var(--size-sm) 0;
 }
 
 h5,
 .h5 {
-  font-size: 8px;
-  margin: 10px 0;
+  font-size: var(--size-xs);
+  margin: var(--size-sm) 0;
 }
 p {
   margin: 5px 0;
 }
 .p-lg {
-  font-size: 1.6rem;
+  font-size: var(--size-base);
 }
 .p-md {
-  font-size: 1.2rem;
+  font-size: var(--size-sm);
 }
 .p-sm {
-  font-size: 8px;
+  font-size: var(--size-xs);
 }
 
 .text-wt-light {
-  font-weight: 300;
+  font-weight: var(--font-wt-light);
 }
 .text-wt-medium {
-  font-weight: 500;
+  font-weight: var(--font-wt-medium);
 }
 .text-wt-bold {
-  font-weight: 600;
+  font-weight: var(--font-wt-bold);
 }

@@ -1,6 +1,6 @@
 .badge {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: var(--size-base);
+  height: var(--size-base);
   border-radius: 50%;
   position: absolute;
   right: 10%;

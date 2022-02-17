@@ -2,17 +2,17 @@
 .primary-link {
   background-color: var(--primary-color);
   color: var(--white);
-  padding: 10px 16px;
-  font-size: 16px;
-  border-radius: 3rem;
+  padding: var(--size-sm) var(--size-base);
+  font-size: var(--size-base);
+  border-radius: var(--size-xl);
 }
 .secondary-link {
-  padding: 10px 16px;
-  font-size: 16px;
+  padding: var(--size-sm) var(--size-base);
+  font-size: var(--size-base);
   color: var(--primary-color);
-  font-weight: 500;
+  font-weight: var(--font-wt-medium);
   border: 1px solid var(--primary-color);
-  border-radius: 3rem;
+  border-radius: var(--size-xl);
 }
 
 /*lists*/
@@ -21,7 +21,7 @@
 }
 .list-item-inline {
   display: inline;
-  padding: 0rem 2rem;
+  padding: 0rem var(--size-lg);
 }
 
 .list-item-block {
@@ -47,8 +47,8 @@
 }
 
 .gap-1 {
-  gap: 1rem;
+  gap: var(--size-sm);
 }
 .gap-2 {
-  gap: 2rem;
+  gap: var(--size-lg);
 }
