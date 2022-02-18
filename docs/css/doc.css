@@ -1,3 +1,6 @@
+.wrapper-body {
+  font-size: 1.6rem;
+}
 .wrapper {
   display: flex;
   min-height: 100vh;
@@ -5,16 +8,11 @@
 .aside-container {
   padding: 0 var(--size-lg);
 }
-.aside-nav .link {
-  font-size: var(--size-sm);
-}
 .aside-nav .nav-list {
-  font-size: var(--size-sm);
   margin: var(--size-sm) var(--size-xl);
   display: block;
 }
 .nav-title {
-  font-size: var(--size-base);
   padding: var(--size-sm) var(--size-xl);
   display: flex;
 }
