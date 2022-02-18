@@ -87,3 +87,110 @@
 .txt-bolder {
   font-weight: var(--font-wt-bolder);
 }
+/*padding*/
+.pd-x-xs {
+  padding-left: var(--size-xs);
+  padding-right: var(--size-xs);
+}
+.pd-y-xs {
+  padding-top: var(--size-xs);
+  padding-bottom: var(--size-xs);
+}
+.pd-x-sm {
+  padding-left: var(--size-sm);
+  padding-right: var(--size-sm);
+}
+.pd-y-sm {
+  padding-top: var(--size-sm);
+  padding-bottom: var(--size-sm);
+}
+.pd-x-base {
+  padding-left: var(--size-base);
+  padding-right: var(--size-base);
+}
+.pd-y-base {
+  padding-top: var(--size-base);
+  padding-bottom: var(--size-base);
+}
+.pd-x-md {
+  padding-left: var(--size-md);
+  padding-right: var(--size-md);
+}
+.pd-y-md {
+  padding-top: var(--size-md);
+  padding-bottom: var(--size-md);
+}
+.pd-x-lg {
+  padding-left: var(--size-lg);
+  padding-right: var(--size-lg);
+}
+.pd-y-lg {
+  padding-top: var(--size-lg);
+  padding-bottom: var(--size-lg);
+}
+.pd-x-xl {
+  padding-left: var(--size-xl);
+  padding-right: var(--size-xl);
+}
+.pd-y-xl {
+  padding-top: var(--size-xl);
+  padding-bottom: var(--size-xl);
+}
+/*margin*/
+.mg-x-xs {
+  margin-left: var(--size-xs);
+  margin-right: var(--size-xs);
+}
+.mg-y-xs {
+  margin-top: var(--size-xs);
+  margin-bottom: var(--size-xs);
+}
+.mg-x-sm {
+  margin-left: var(--size-sm);
+  margin-right: var(--size-sm);
+}
+.mg-y-sm {
+  margin-top: var(--size-sm);
+  margin-bottom: var(--size-sm);
+}
+.mg-x-base {
+  margin-left: var(--size-base);
+  margin-right: var(--size-base);
+}
+.mg-y-base {
+  margin-top: var(--size-base);
+  margin-bottom: var(--size-base);
+}
+.mg-x-md {
+  margin-left: var(--size-md);
+  margin-right: var(--size-md);
+}
+.mg-y-md {
+  margin-top: var(--size-md);
+  margin-bottom: var(--size-md);
+}
+.mg-x-lg {
+  margin-left: var(--size-lg);
+  margin-right: var(--size-lg);
+}
+.mg-y-lg {
+  margin-top: var(--size-lg);
+  margin-bottom: var(--size-lg);
+}
+.mg-x-xl {
+  margin-left: var(--size-xl);
+  margin-right: var(--size-xl);
+}
+.mg-y-xl {
+  margin-top: var(--size-xl);
+  margin-bottom: var(--size-xl);
+}
+.mg-x-auto {
+  margin: 0 auto;
+}
+.mg-left-auto {
+  margin: 0 auto;
+}
+.mg-right-auto {
+  margin: 0 auto;
+}
