@@ -52,3 +52,38 @@
 .gap-2 {
   gap: var(--size-lg);
 }
+/*font size*/
+.txt-xs {
+  font-size: var(--size-xs);
+}
+.txt-sm {
+  font-size: var(--size-sm);
+}
+.txt-base {
+  font-size: var(--size-base);
+}
+.txt-md {
+  font-size: var(--size-md);
+}
+.txt-lg {
+  font-size: var(--size-lg);
+}
+.txt-xl {
+  font-size: var(--size-xl);
+}
+/*font weight*/
+.txt-light {
+  font-weight: var(--font-wt-light);
+}
+.txt-rg {
+  font-weight: var(--font-wt-normal);
+}
+.txt-md {
+  font-weight: var(--font-wt-medium);
+}
+.txt-bold {
+  font-weight: var(--font-wt-bold);
+}
+.txt-bolder {
+  font-weight: var(--font-wt-bolder);
+}
