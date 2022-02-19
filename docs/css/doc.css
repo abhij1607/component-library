@@ -4,7 +4,24 @@
 .wrapper {
   display: flex;
   min-height: 100vh;
+  font-size: 1.6rem;
 }
+/*header*/
+.navigation .logo-btn-header .nav-brand {
+  font-size: var(--size-xl);
+  font-weight: var(--font-wt-bold);
+}
+/*navigation link*/
+.navigation .link {
+  font-size: var(--size-md);
+  font-weight: var(--font-wt-medium);
+  color: var(--sec-text);
+}
+.navigation .link.link-active {
+  font-weight: var(--font-wt-bold);
+  color: var(--primary-text);
+}
+/*aside component-menu*/
 .aside-container {
   padding: 0 var(--size-lg);
 }
@@ -15,6 +32,9 @@
 .nav-title {
   padding: var(--size-sm) var(--size-xl);
   display: flex;
+}
+.nav-title h3 {
+  font-size: var(--size-lg);
 }
 .nav-title button {
   display: none;
@@ -66,11 +86,14 @@
 }
 .code-container {
   align-items: center;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid transparent;
   border-radius: var(--size-2xs);
   margin: var(--size-sm) 0;
-  height: 20rem;
+  max-height: 20rem;
   overflow-y: scroll;
+}
+.gist-meta {
+  display: none;
 }
 .arrow {
   border: solid black;
@@ -102,6 +125,8 @@
   .main {
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    top: 50px;
   }
   .top-nav {
     padding: var(--size-lg) var(--size-xl);
@@ -151,5 +176,9 @@
   }
   .aside-container {
     padding: 0 var(--size-xl);
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 2;
   }
 }
