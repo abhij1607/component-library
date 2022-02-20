@@ -18,6 +18,8 @@
   align-items: center;
   background-color: var(--success);
   color: var(--white);
+  padding: 1.2rem;
+  right: 0%;
 }
 .badge-box {
   position: relative;
