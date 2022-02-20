@@ -7,7 +7,7 @@ To use this library, copy paste the URL below to the head on your page
 <link rel="stylesheet" href="https://sapota-ui.netlify.app/style.css" />
 ```
 ## Live Project link
-[Live project](https://sapota-ui.netlify.app/docs/avatar.html) will help you visualize the components
+[Live project](https://sapota-ui.netlify.app) will help you visualize the components
 
 ## Components
 Sapota UI has the following components ready to be used in UI
