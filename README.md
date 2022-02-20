@@ -1,6 +1,12 @@
-# component-library
+<div align="center">
+  
+# Sapota-UI
+  
 Sapota UI is a CSS3 component library. It provides ready to use components for your web-page with very simple, easy to read and understand code.
 
+![Forks](https://img.shields.io/github/forks/abhij1607/component-library)
+![Stars](https://img.shields.io/github/stars/abhij1607/component-library)
+</div>
 ## Installation
 To use this library, copy paste the URL below to the head on your page
 ```html
