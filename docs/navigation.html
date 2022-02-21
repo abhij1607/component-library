@@ -87,32 +87,42 @@
           for major blocks of navigation links.
         </p>
         <div>
-          <h2>Navigation view for desktop size screen</h2>
+          <h2>Navigation view for Ecommerce Application</h2>
           <div class="demo-container">
-            <div class="top-nav box-shadow">
+            <div class="top-nav nav-position box-shadow">
               <nav class="navigation">
                 <div class="nav-col nv-col-1">
                   <div class="nav-brand">BRAND</div>
 
-                  <ul class="list-non-bullets nav-right">
-                    <li class="list-item-inline">
+                  <div class="nav-col nv-col-2">
+                    <input
+                      type="search"
+                      class="input input-search input-primary"
+                      id="gsearch"
+                      name="gsearch"
+                    />
+                    <button class="btn btn-primary" type="submit">
+                      <i class="fas fa-search" title="search"></i>
+                    </button>
+                  </div>
+
+                  <button class="menu-icon">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </button>
+
+                  <ul class="flex-row gap-2 nav-right">
+                    <li class="list-non-bullet">
+                      <a class="link" href="">Login</a>
+                    </li>
+                    <li class="list-non-bullet">
                       <a class="link" href="">Wishlist</a>
                     </li>
-                    <li class="list-item-inline">
+                    <li class="list-non-bullet">
                       <a class="link" href="">Bag</a>
                     </li>
                   </ul>
-                </div>
-                <div class="nav-col nv-col-2">
-                  <input
-                    type="search"
-                    class="input input-search input-primary"
-                    id="gsearch"
-                    name="gsearch"
-                  />
-                  <button class="btn btn-primary" type="submit">
-                    <i class="fas fa-search" title="search"></i>
-                  </button>
                 </div>
               </nav>
             </div>

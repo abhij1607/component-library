@@ -20,6 +20,9 @@
   color: var(--primary-color);
   padding: 0 3rem;
 }
+.top-nav.nav-position {
+  position: unset;
+}
 .nav-col {
   display: flex;
 }
@@ -27,9 +30,8 @@
   width: 100%;
 }
 .nv-col-2 {
-  position: absolute;
-  left: 40%;
-  gap: 5px;
+  gap: 8px;
+  flex-basis: 45%;
 }
 @media (max-width: 767px) {
   .top-nav .navigation {
