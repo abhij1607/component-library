@@ -1,0 +1,7 @@
+.list-stacked {
+  list-style-type: none;
+}
+.list-spaced {
+  display: inline-flex;
+  list-style: none;
+}
