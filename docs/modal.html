@@ -115,23 +115,10 @@
             </div>
             <button class="btn btn-primary" id="modal-show">show modal</button>
           </div>
-          <script>
-            document
-              .querySelector("#modal-close")
-              .addEventListener("click", () => {
-                document.querySelector(".modal.fade").classList.remove("show");
-              });
-
-            document
-              .querySelector("#modal-show")
-              .addEventListener("click", () => {
-                document.querySelector(".modal.fade").classList.add("show");
-              });
-          </script>
 
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/77688825de7e4f7e1df9aeda0f46b032.js"></script>
+              <script src="https://gist.github.com/abhij1607/00afd160495a30546ecfcb3aec4f991e.js"></script>
             </code>
           </div>
         </div>
@@ -159,5 +146,14 @@
     </footer>
     <!-- script -->
     <script src="./js/navbar.js"></script>
+    <script>
+      document.querySelector("#modal-close").addEventListener("click", () => {
+        document.querySelector(".modal.fade").classList.remove("show");
+      });
+
+      document.querySelector("#modal-show").addEventListener("click", () => {
+        document.querySelector(".modal.fade").classList.add("show");
+      });
+    </script>
   </body>
 </html>
