@@ -1,0 +1,27 @@
+.modal.fade {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal.fade.show {
+  display: block;
+}
+.modal-content {
+  width: 600px;
+  margin: auto;
+  border: 1px solid black;
+  background-color: var(--white);
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  right: var(--size-base);
+  top: var(--size-sm);
+}
