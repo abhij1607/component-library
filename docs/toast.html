@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sapota UI | Toast</title>
+    <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/doc.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header class="top-nav box-shadow main-header">
+      <nav class="navigation">
+        <div class="logo-btn-header">
+          <a href="../index.html" class="nav-brand">SAPOTA UI</a>
+          <button class="menu-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+        </div>
+        <ul id="main-menu" class="list-non-bullets nav-right">
+          <li class="list-item-inline">
+            <a class="link" href="../index.html">Home</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link link-active" href="./avatar.html">Docs</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="https://github.com/abhij1607">Github</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <aside class="aside-container box-shadow">
+        <div class="nav-title">
+          <h3>Components</h3>
+          <button id="components-btn">
+            <i class="arrow right"></i>
+          </button>
+        </div>
+
+        <nav class="navigation aside-nav">
+          <ul class="list-non-bullets">
+            <li class="nav-list">
+              <a class="link" href="./avatar.html">Avatar</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./alert.html">Alert</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./badge.html">Badge</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./buttons.html">Button</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./cards.html">Card</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./image.html">Image</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./input.html">Input</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./typography.html">Typography</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./navigation.html">Navigation</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./grid.html">Grid</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./list.html">List</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./rating.html">Rating</a>
+            </li>
+            <li class="nav-list">
+              <a class="link" href="./slider.html">Slider</a>
+            </li>
+            <li class="nav-list">
+              <a class="link link-active" href="./toast.html">Toast</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="main">
+        <h1>Toast</h1>
+        <p class="p-lg">
+          Toast/Snackbars are often used as a tooltips/popups to show a message
+          at the bottom of the screen.
+        </p>
+
+        <div>
+          <h2>Toast</h2>
+          <div class="demo-container flex-column">
+            <button class="btn btn-primary" id="btn-toast">
+              Show Baseline
+            </button>
+            <div class="toast pd-x-sm pd-y-sm">Some text some message..</div>
+          </div>
+
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/77688825de7e4f7e1df9aeda0f46b032.js"></script>
+            </code>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/abhij1607/"
+            ><i class="fa fa-3x fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/abhij1607"
+            ><i class="fa fa-3x fa-github"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/abhijain1607"
+            ><i class="fa fa-3x fa-twitter-square"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- script -->
+    <script src="./js/navbar.js"></script>
+    <script>
+      document.querySelector("#btn-toast").addEventListener("click", () => {
+        document.querySelector(".toast").classList.add("show");
+        setTimeout(function () {
+          document.querySelector(".toast").classList.remove("show");
+        }, 3000);
+      });
+    </script>
+  </body>
+</html>
