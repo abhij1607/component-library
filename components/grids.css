@@ -18,3 +18,7 @@
   display: grid;
   grid-template-columns: 20% 1fr;
 }
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
