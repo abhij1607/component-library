@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sapota UI | Buttons</title>
+    <title>Sapota UI | Typography</title>
     <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/doc.css" />
@@ -55,7 +55,7 @@
               <a class="link" href="./badge.html">Badge</a>
             </li>
             <li class="nav-list">
-              <a class="link link-active" href="./buttons.html">Button</a>
+              <a class="link" href="./buttons.html">Button</a>
             </li>
             <li class="nav-list">
               <a class="link" href="./cards.html">Card</a>
@@ -76,7 +76,7 @@
               <a class="link" href="./grid.html">Grid</a>
             </li>
             <li class="nav-list">
-              <a class="link" href="./list.html">List</a>
+              <a class="link link-active" href="./list.html">List</a>
             </li>
             <li class="nav-list">
               <a class="link" href="./rating.html">Rating</a>
@@ -94,51 +94,77 @@
         </nav>
       </aside>
       <main class="main">
-        <h1>Buttons</h1>
+        <h1>List</h1>
         <p class="p-lg">
-          Button refers to any graphical control element that provides the user
-          a simple way to trigger an event, like confirming an action.
+          List component is used to display list items. It is number of
+          connected items displayed consecutively, typically one below the
+          other.
         </p>
+
         <div>
-          <h2>Simple Buttons</h2>
-          <div class="demo-container flex-row">
-            <button class="btn btn-primary">Primary</button>
-            <button class="btn btn-secondary">Secondary</button>
-            <button class="btn btn-success">Success</button>
-            <button class="btn btn-danger">Danger</button>
-            <button class="btn btn-link">Link</button>
+          <h2>Semantic Unordered List</h2>
+          <div class="demo-container flex-column">
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+            </ul>
           </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
+              <script src="https://gist.github.com/abhij1607/3085b143647b899e883f430035ece7e7.js"></script>
             </code>
           </div>
         </div>
+
         <div>
-          <h2>Button Icons and fab</h2>
-          <div class="demo-container flex-row">
-            <button class="btn btn-icon">
-              <i class="fas fa-shopping-cart"></i>
-            </button>
-            <button class="btn btn-fab">
-              <i class="fa fa-plus" aria-hidden="true"></i>
-            </button>
+          <h2>Semantic Ordered List</h2>
+          <div class="demo-container flex-column">
+            <ol>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+            </ol>
           </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/0dc8fb13aa14d811d2370c0514c47c8c.js"></script>
+              <script src="https://gist.github.com/abhij1607/93592fb4d34af02bec4b2c62a639ea3c.js"></script>
             </code>
           </div>
         </div>
+
         <div>
-          <h2>Button sizes</h2>
-          <div class="demo-container flex-row">
-            <button class="btn btn-primary btn-lg">Large CTA</button>
-            <button class="btn btn-primary btn-sm">Small CTA</button>
+          <h2>Basic Spaced List</h2>
+          <div class="demo-container flex-column">
+            <ul class="list-spaced pd-x-md">
+              <li class="pd-x-sm">Item 1</li>
+              <li class="pd-x-sm">Item 2</li>
+              <li class="pd-x-sm">Item 3</li>
+              <li class="pd-x-sm">Item 4</li>
+            </ul>
           </div>
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/3ef2e89139d60e62cd8ba6383ac89330.js"></script>
+              <script src="https://gist.github.com/abhij1607/93592fb4d34af02bec4b2c62a639ea3c.js"></script>
+            </code>
+          </div>
+        </div>
+
+        <div>
+          <h2>Stacked List</h2>
+          <div class="demo-container flex-column">
+            <ul class="list-stacked">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+            </ul>
+          </div>
+          <div class="code-container">
+            <code>
+              <script src="https://gist.github.com/abhij1607/da7ddfd6a95b4fd7af97b2a5cf9dc4d5.js"></script>
             </code>
           </div>
         </div>

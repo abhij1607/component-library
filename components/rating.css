@@ -1,0 +1,16 @@
+.star-rating input:hover ~ label,
+.star-rating input:checked ~ label {
+  color: var(--rating-avg);
+}
+.star-rating input.star5:hover ~ label,
+.star-rating input.star5:checked ~ label {
+  color: var(--rating-excellent);
+}
+.star-rating input.star4:hover ~ label,
+.star-rating input.star4:checked ~ label {
+  color: var(--rating-good);
+}
+.star-rating input.star1:hover ~ label,
+.star-rating input.star1:checked ~ label {
+  color: var(--rating-low);
+}

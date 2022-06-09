@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sapota UI | Buttons</title>
+    <title>Sapota UI | Toast</title>
     <link rel="icon" href="./assets/sapota-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/doc.css" />
@@ -55,7 +55,7 @@
               <a class="link" href="./badge.html">Badge</a>
             </li>
             <li class="nav-list">
-              <a class="link link-active" href="./buttons.html">Button</a>
+              <a class="link" href="./buttons.html">Button</a>
             </li>
             <li class="nav-list">
               <a class="link" href="./cards.html">Card</a>
@@ -85,7 +85,7 @@
               <a class="link" href="./slider.html">Slider</a>
             </li>
             <li class="nav-list">
-              <a class="link" href="./toast.html">Toast</a>
+              <a class="link link-active" href="./toast.html">Toast</a>
             </li>
             <li class="nav-list">
               <a class="link" href="./modal.html">Modal</a>
@@ -94,51 +94,24 @@
         </nav>
       </aside>
       <main class="main">
-        <h1>Buttons</h1>
+        <h1>Toast</h1>
         <p class="p-lg">
-          Button refers to any graphical control element that provides the user
-          a simple way to trigger an event, like confirming an action.
+          Toast/Snackbars are often used as a tooltips/popups to show a message
+          at the bottom of the screen.
         </p>
+
         <div>
-          <h2>Simple Buttons</h2>
-          <div class="demo-container flex-row">
-            <button class="btn btn-primary">Primary</button>
-            <button class="btn btn-secondary">Secondary</button>
-            <button class="btn btn-success">Success</button>
-            <button class="btn btn-danger">Danger</button>
-            <button class="btn btn-link">Link</button>
-          </div>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/6b2f8cab67afa521314ef2ac61352e80.js"></script>
-            </code>
-          </div>
-        </div>
-        <div>
-          <h2>Button Icons and fab</h2>
-          <div class="demo-container flex-row">
-            <button class="btn btn-icon">
-              <i class="fas fa-shopping-cart"></i>
+          <h2>Toast</h2>
+          <div class="demo-container flex-column">
+            <button class="btn btn-primary" id="btn-toast">
+              Show Baseline
             </button>
-            <button class="btn btn-fab">
-              <i class="fa fa-plus" aria-hidden="true"></i>
-            </button>
+            <div class="toast pd-x-sm pd-y-sm">Some text some message..</div>
           </div>
+
           <div class="code-container">
             <code>
-              <script src="https://gist.github.com/abhij1607/0dc8fb13aa14d811d2370c0514c47c8c.js"></script>
-            </code>
-          </div>
-        </div>
-        <div>
-          <h2>Button sizes</h2>
-          <div class="demo-container flex-row">
-            <button class="btn btn-primary btn-lg">Large CTA</button>
-            <button class="btn btn-primary btn-sm">Small CTA</button>
-          </div>
-          <div class="code-container">
-            <code>
-              <script src="https://gist.github.com/abhij1607/3ef2e89139d60e62cd8ba6383ac89330.js"></script>
+              <script src="https://gist.github.com/abhij1607/77688825de7e4f7e1df9aeda0f46b032.js"></script>
             </code>
           </div>
         </div>
@@ -166,5 +139,13 @@
     </footer>
     <!-- script -->
     <script src="./js/navbar.js"></script>
+    <script>
+      document.querySelector("#btn-toast").addEventListener("click", () => {
+        document.querySelector(".toast").classList.add("show");
+        setTimeout(function () {
+          document.querySelector(".toast").classList.remove("show");
+        }, 3000);
+      });
+    </script>
   </body>
 </html>
