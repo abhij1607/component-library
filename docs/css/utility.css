@@ -16,7 +16,8 @@
 }
 
 /*lists*/
-.list-non-bullet {
+.list-non-bullet,
+.list-non-bullets {
   list-style: none;
 }
 .list-item-inline {
